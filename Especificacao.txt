@@ -1,0 +1,94 @@
+﻿///////////////////////////////////////////////////////////////////////////////
+//OBJETIVO.////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+	Este documento serve de base e de controle de concorrência para 
+atualizações e trabalho realizado no projeto. Deve descrever o conceito do 
+projeto DE FORMA INFORMAL. NÃO deve conter artefatos de documentação do 
+projeto,apenas enumera-los, especifica-los e indica-los, SEMPRE INFORMALMENTE. 
+Não despenda muito esforço aqui, e sim nos próprios artefatos.
+
+///////////////////////////////////////////////////////////////////////////////
+//HISTÓRICO. MANTER ATUALIZADO.////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+
+10/09/2013 – 11/09/2013 – Guilherme
+
+-Documento Criado. Seções “Descrição Informal Cliente”, “Descrição Formal 
+	Não-Organizada” e “Requisitos” criadas.
+-Inicio do progresso em “Requisitos”.
+
+15/09/2013 - Guilherme
+
+-Documento convertido para texto simples.
+-Commit para gitHub.
+
+///////////////////////////////////////////////////////////////////////////////
+//Índice://////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+
+1.	Descrição Informal Cliente.
+2.	Descrição Formal Não-Organizada.
+3.	Requisitos.
+
+///////////////////////////////////////////////////////////////////////////////
+//CONTEUDO/////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+
+1. Descrição informal cliente:
+
+	“Gerenciador financeiro para uso pessoal. Preciso Controlar meus gastos e 
+saber quanto dinheiro deveria sobrar no fim do mês. Para isso quero um sistema
+que faça este controle para mim.”
+
+	“O sistema deve permitir que eu cadastre minhas receitas (salário, aluguel
+de minhas propriedades, rendimentos de meus investimentos, etc.), e também 
+minhas despesas (contas de (luz | agua | telefone), gastos imprevistos, etc. 
+Em posse dessas informações o sistema deve me informar o saldo final do meu mês
+(ou de um período qualquer que eu defina, inclusive futuro).”
+
+	“Também seria interessante se o sistema tivesse uma funcionalidade de 
+‘projeção de gastos futuros’, tal que eu pudesse definir um orçamento e prazo 
+para, por exemplo, a reforma da minha casa, e o sistema projeta-se mês a mês 
+quanto falta para atingir este objetivo, permitindo que eu diga quanto do meu 
+saldo restante deve ser reservado para este objetivo.”
+
+	“Por fim, preciso que este sistema importe e exporte planilhas em Excel 
+para manter compatibilidade com minha antiga forma de controle e me poupar o 
+trabalho manual de importar estes dados para o sistema.”
+
+2. Descrição formal AINDA não-organizada (a.k.a. TODO list).
+
+ENTRADA DE INFORMAÇÕES:
+	- Permitir entrada de fontes de receita. Fixas? Anuais/Mensais/Ambas? 
+		Inclui investimentos?
+	- Permitir entrada de contas a pagar. Controle maior de “conta” subdividido
+		em parcelas com vencimento mensal. Como lidar com contas variáveis?
+	- Permitir entrada de despesas. Sem o controle de parcelas: uma cacetada 
+		só. Nenhum mistério.
+	- Manter um controle de saldo dependente da “data alvo”. Separar do saldo 
+		reservado para o objetivo.
+	- É permitido cadastrar informações referentes a eventos futuros. É 
+		possível alterar eventos cadastrados enquanto os mesmos ainda se 
+		referirem ao mês atual. Não deve permitir cadastro/alteração de 
+		informações de meses anteriores ao atual. Exceto Importação, que pode 
+		alterar o passado. Considerar o mês atual como em aberto. Usar mês 
+		comercial?
+
+SAIDA DE INFORMAÇÕES (a.k.a motivo de eu pagar o sistema):
+	- O saldo pode ser consultado para qualquer período, inclusive futuro. Sem
+		mistérios.
+	- [Implícito] deve existir um relatório no estilo “extrato” relatando a 
+		movimentação financeira do mês. Não precisa incluir investimentos.
+	- A funcionalidade Objetivo deve permitir o cadastro de um conjunto de 
+		“despesas futuras”. Deve existir um saldo em separado para cada 
+		Objetivo e o mesmo não segue a regra comum de [Receita / Despesas]: As
+		despesas são “fixas” e independentes de data, do ponto de vista do 
+		saldo, e não existe receita: o saldo sempre é atualizado mediante ação
+		externa.
+
+Requisitos Funcionais: (EM PROGRESSO – Guilherme – 11/09/2013)
+
+RF.01 – Controlar fontes de renda.
+	Permitir o cadastro, alteração e exclusão de fontes de renda. Uma fonte de
+	renda é composta por um valor qualquer. Esta fonte de renda pode ser mensal
+	ou anual, fixa ou variável.

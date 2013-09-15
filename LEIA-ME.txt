@@ -1,0 +1,12 @@
+﻿11/09/2013 - Guilherme
+
+O Arquivo "Especificao.docx" serve de controle de concorrência e base de conhecimento para o projeto.
+Atualize-o conforme for trabalhando nos artefatos, e sempre que altera-lo envie-o para os demais.
+É responsabilidade de cada um incorporar as alterações feitas por si próprio em novas versões
+
+Antes do fim do mês devo disponibilizar um GitHub para o projeto e converter este arquivo docx para 
+algum formato de "texto plano", para aprovetar funcionalidades de um diff ou merge, por exemplo.
+
+15/09/2013 - Guilherme
+
+Repositório Git disponibilizado. "Especificao.docx" convetido para "Especificao.txt"

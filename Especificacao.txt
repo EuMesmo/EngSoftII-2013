@@ -59,10 +59,11 @@ trabalho manual de importar estes dados para o sistema.”
 2. Descrição formal AINDA não-organizada (a.k.a. TODO list).
 
 ENTRADA DE INFORMAÇÕES:
-    - Permitir entrada de fontes de receita. Fixas? Anuais/Mensais/Ambas? 
-      Inclui investimentos?
+    - Permitir entrada de fontes de receita. Fixas. Anuais/Mensais. 
+    - Investimentos segregados das contas normais.
     - Permitir entrada de contas a pagar. Controle maior de “conta” subdividido
-      em parcelas com vencimento mensal. Como lidar com contas variáveis?
+      em parcelas com vencimento mensal. Não lidar com contas variáveis, devem
+      ser atualizadas manualmente.
     - Permitir entrada de despesas. Sem o controle de parcelas: uma cacetada 
       só. Nenhum mistério.
     - Manter um controle de saldo dependente da “data alvo”. Separar do saldo 
@@ -72,7 +73,7 @@ ENTRADA DE INFORMAÇÕES:
       referirem ao mês atual. Não deve permitir cadastro/alteração de 
       informações de meses anteriores ao atual. Exceto Importação, que pode 
       alterar o passado. Considerar o mês atual como em aberto. Usar mês 
-      comercial?
+      comercial.
 
 SAIDA DE INFORMAÇÕES (a.k.a motivo de eu pagar o sistema):
     - O saldo pode ser consultado para qualquer período, inclusive futuro.
@@ -91,4 +92,4 @@ Requisitos Funcionais: (EM PROGRESSO – Guilherme – 11/09/2013)
 RF.01 – Controlar fontes de renda.
     Permitir o cadastro, alteração e exclusão de fontes de renda. Uma fonte de
     renda é composta por um valor qualquer. Esta fonte de renda pode ser mensal
-    ou anual, fixa ou variável.
+    ou anual.

@@ -87,9 +87,41 @@ SAIDA DE INFORMAÇÕES (a.k.a motivo de eu pagar o sistema):
       saldo, e não existe receita: o saldo sempre é atualizado mediante ação
       externa.
 
+///////////////////////////////////////////////////////////////////////////////
 Requisitos Funcionais: (EM PROGRESSO – Guilherme – 11/09/2013)
 
-RF.01 – Controlar fontes de renda.
-    Permitir o cadastro, alteração e exclusão de fontes de renda. Uma fonte de
-    renda é composta por um valor qualquer. Esta fonte de renda pode ser mensal
-    ou anual.
+RF.01 - Controlar Multiplas Contas. (RNF.02)
+    Atualização de contas individuais atreladas a um mesmo usuário de sistema.
+    Funções de saldo invidual por conta.
+
+RF.02 – Controlar fontes de renda. (RNF.01)
+    Permitir a atualização de fontes de renda. Uma fonte de renda é composta 
+    por um valor qualquer. Esta fonte de renda pode ser mensal ou anual.
+
+RF.03 - Controlar Contas-a-Pagar. (RNF.01)
+    Permitir a atualização de Contas-a-Pagar. Contas a pagar podem ser fixas e/
+    ou parceladas.
+
+RF.04 - Controlar Despesas. (RNF.01)
+    Permitir a atualização de Despesas. Despesas SEMPRE serão fixas e não são
+    parcelaveis.
+
+RF.05 - Importar/Exportar dados para Excel. (RNF.03, RNF.04)
+    Planilhas para importação devem seguir padrão pré-definido. É a unica 
+    exceção a regra que não permite alterar dados do passado. Cada planilha 
+    deve ser associada a uma unica conta.
+
+RF.06 - Controlar Investimentos. (RNF.02)
+    Permitir Atualização de Investimentos. Auto-Calcular Rendimentos (Fixos).
+
+RF.07 - Controlar Saldo das contas. (RNF.02)
+    Gerar relatórios referentes aos saldos das contas.
+
+///////////////////////////////////////////////////////////////////////////////
+Requisitos não-Funcionais: (EM PROGRESSO - Guilherme - 24/09/2013)
+
+RNF.01 - As operações não podem alterar dados de meses anteriores.
+RNF.02 - Uma conta não pode misturar investimentos e outros tipos de 
+         lançamento.
+RNF.03 - Planilhas para importação devem seguir formato pré-estabelecido.
+RNF.04 - Dados de uma planilha devem ser associadas a uma única conta.

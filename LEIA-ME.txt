@@ -20,3 +20,9 @@ Repositório Git disponibilizado. "Especificao.docx" convetido para
 Sem muito progresso, situação arlamante. 
 Criação da lista formal de Requisitos Funcionais e Não-Funcionais.
 Atualização deste arquivo para formato de 80 colunas.
+
+08/10/2013 - Gulherme
+
+Desisto, estou só.
+Criação do Diagrama de Casos de Uso.
+Modelo da planilha de custos do projeto com comentários.

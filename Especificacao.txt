@@ -28,7 +28,8 @@ Não despenda muito esforço aqui, e sim nos próprios artefatos.
 
 1. Descrição Informal Cliente.
 2. Descrição Formal Não-Organizada.
-3. Requisitos.
+3. Requisitos (Funcionais e Não Funcionais).
+4. Diagramas de Casos de Uso.
 
 ///////////////////////////////////////////////////////////////////////////////
 //CONTEUDO/////////////////////////////////////////////////////////////////////
@@ -125,3 +126,9 @@ RNF.02 - Uma conta não pode misturar investimentos e outros tipos de
          lançamento.
 RNF.03 - Planilhas para importação devem seguir formato pré-estabelecido.
 RNF.04 - Dados de uma planilha devem ser associadas a uma única conta.
+
+///////////////////////////////////////////////////////////////////////////////
+Diagramas de Casos de Uso (EM PROGRESSO - Guilherme - 08/10/2013)
+
+Vide arquivo "DiagramasUML.asta", diagramas "Diag.CasoUso/Macro" e 
+"Diag.CasoUso/Micro".

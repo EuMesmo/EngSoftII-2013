@@ -1,0 +1,33 @@
+Total:
+-------------------------------------------------------------------------------
+-Diagrama de Classes;
+-Diagrama de Casos de Usos - Macro e Micro;
+-Diagrama de Sequência.
+-Telas do Sistema.
+-Lista de Requisitos Funcionais e Não-Funcionais;
+-Casos de usos Expandido.
+-EPAS - Entrada Processamento Armazenamento Saida.
+-MACROFLUXO.
+-EAP - Estrutura Analitica do Projeto - Analitico.
+-EAP - Estrutura Analitica do Projeto - Mapa Mental.
+-CRONOFISFIN.
+
+Concluido
+-------------------------------------------------------------------------------
+-Diagrama de Casos de Usos - Macro e Micro;
+-Lista de Requisitos Funcionais e Não-Funcionais;
+
+Em Progresso
+-------------------------------------------------------------------------------
+-Diagrama de Classes;
+-Casos de usos Expandido.
+
+Intocado
+-------------------------------------------------------------------------------
+-Diagrama de Sequência.
+-Telas do Sistema.
+-EPAS - Entrada Processamento Armazenamento Saida.
+-MACROFLUXO.
+-EAP - Estrutura Analitica do Projeto - Analitico.
+-EAP - Estrutura Analitica do Projeto - Mapa Mental.
+-CRONOFISFIN.

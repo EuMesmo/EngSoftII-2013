@@ -26,3 +26,9 @@ Atualização deste arquivo para formato de 80 colunas.
 Desisto, estou só.
 Criação do Diagrama de Casos de Uso.
 Modelo da planilha de custos do projeto com comentários.
+
+29/10/2013 - Guilherm
+
+Idem.
+Casos de Uso Expandidos.
+Lista de Artefatos.

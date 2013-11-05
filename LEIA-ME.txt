@@ -27,7 +27,7 @@ Desisto, estou só.
 Criação do Diagrama de Casos de Uso.
 Modelo da planilha de custos do projeto com comentários.
 
-29/10/2013 - Guilherm
+29/10/2013 - Guilherme
 
 Idem.
 Casos de Uso Expandidos.

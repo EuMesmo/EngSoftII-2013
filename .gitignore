@@ -2,3 +2,4 @@
 *.xls
 ~$*
 *.notestmp.*
+~*.tmp
